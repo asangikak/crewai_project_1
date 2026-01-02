@@ -1,0 +1,11 @@
+[project]
+name = "year-end-crewai-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai[google-genai,openai,tools]>=1.7.2",
+    "ipykernel>=7.1.0",
+    "utils>=1.0.2",
+]
